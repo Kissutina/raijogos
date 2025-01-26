@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrar Jogos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Barra de pesquisa no topo -->
+        <div class="search-top">
+            <input type="text" id="searchBar" placeholder="Pesquisar por título...">
+        </div>
+
+                    <!-- Botões de status -->
+                    <div class="status-filters">
+                        <button class="status-btn active" data-status="Zerado">Zerados</button>
+                        <button class="status-btn" data-status="Platinado">Platinados</button>
+                        <button class="status-btn" data-status="Playlist">Playlist</button>
+                        <button class="status-btn" data-status="Dropado">Dropados</button>
+                        <button class="status-btn" data-status="Contínuo">Contínuos</button>
+                    </div>
+
+        <!-- Área de filtros na lateral -->
+        <div class="filters-sidebar">
+            <h3 class="filtertext">Filtros</h3>
+
+            <!-- Filtro por gênero -->
+            <div class="filter-group">
+                <input type="text" id="filterGenres" placeholder="Filtrar por gênero...">
+            </div>
+
+            <!-- Filtro por plataforma -->
+            <div class="filter-group">
+                <input type="text" id="filterPlatform" placeholder="Filtrar por plataforma...">
+            </div>
+
+            <!-- Filtro por desenvolvedor -->
+            <div class="filter-group">
+                <input type="text" id="filterDev" placeholder="Filtrar por desenvolvedor...">
+            </div>
+
+            <!-- Filtro por ano de lançamento -->
+            <div class="filter-group">
+                <input type="text" id="filterAno" placeholder="Filtrar por ano de lançamento...">
+            </div>
+
+            <div class="filter-group">
+                <h3 class="filtertext">Ano que joguei:</h3>
+                <select id="filterJAno">
+                    <option value="">Todos</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <h3 class="filtertext">Nota:</h3>
+                <select id="filterNota">
+                    <option value="">Todos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+
+            <!-- Ordenação -->
+            <h3 class="filtertext">Ordem</h3>
+            <div class="filter-group">
+                <select id="sortOrder">
+                    <option value="title">Título (A-Z)</option>
+                    <option value="titleDesc">Título (Z-A)</option>
+                    <option value="score">Nota (Maior para Menor)</option>
+                    <option value="scoreDesc">Nota (Menor para Maior)</option>
+                    <option value="release">Lançamento (Mais Antigo)</option>
+                    <option value="releaseDesc">Lançamento (Mais Recente)</option>
+                </select>
+            </div>
+
+            <div id="info-container">
+                <p>Jogos na tela: <span id="total-jogos">0</span></p>
+                <p>Nota média: <span id="nota-media">0</span></p>
+            </div>
+        </div>
+
+        <!-- Lista de jogos -->
+        <div class="cards-container" id="cards-container">
+            <!-- Os cards serão inseridos aqui via JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+.status-filters {
+    display: flex;
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    align-items: flex-start; /* Alinha os botões ao topo */
+    gap: 200px; /* Espaçamento entre os botões */
+    margin-bottom: 20px; /* Espaço abaixo dos botões */
+    margin-left: 100px;
+    flex-wrap: wrap; /* Permite que os botões quebrem para a próxima linha em telas pequenas */
+}
+
+.status-btn {
+    padding: 10px 20px; /* Tamanho interno dos botões */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    flex-shrink: 0; /* Faz os botões ocuparem espaço igual */
+    max-width: 150px; /* Largura máxima para evitar que fiquem muito largos */
+    text-align: center; /* Centraliza o texto dentro dos botões */
+    height: 40px; /* Altura fixa para os botões */
+}
+
+.status-btn.active {
+    transform: scale(1.05); /* Efeito de destaque */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+}
+
+/* Cores específicas para cada botão */
+.status-btn[data-status="Zerados"] {
+    background-color: #4CAF50; /* Verde */
+}
+
+.status-btn[data-status="Platinados"] {
+    background-color: #2196F3; /* Azul */
+}
+
+.status-btn[data-status="Playlist"] {
+    background-color: #FF9800; /* Laranja */
+}
+
+.status-btn[data-status="Dropados"] {
+    background-color: #F44336; /* Vermelho */
+}
+
+.status-btn[data-status="Contínuos"] {
+    background-color: #9C27B0; /* Roxo */
+}
+
+.status-btn:hover {
+    opacity: 0.9; /* Efeito de hover */
+}
+
+
+<!--<div class="status-filters">
+<button class="status-btn active" data-status="Zerados">Zerados</button>
+<button class="status-btn" data-status="Platinados">Platinados</button>
+<button class="status-btn" data-status="Playlist">Playlist</button>
+<button class="status-btn" data-status="Dropados">Dropados</button>
+<button class="status-btn" data-status="Contínuos">Contínuos</button>
+</div>

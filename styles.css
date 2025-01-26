@@ -1,0 +1,397 @@
+/* Reset básico para garantir consistência entre navegadores */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 240px; /* Espaço para a barra lateral fixa */
+}
+
+
+/* Barra de pesquisa no topo */
+.search-top {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#searchBar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+#searchBar:focus {
+    border-color: #2196F3; /* Azul */
+    outline: none;
+}
+
+/* Barra lateral de filtros */
+.filters-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.filter-title {
+    text-align: center;
+    background-color: #f4f4f4;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Grupos de filtros */
+.filter-group {
+    margin-bottom: 20px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.filter-group input,
+.filter-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.filter-group input:focus,
+.filter-group select:focus {
+    border-color: #2196F3; /* Azul */
+    outline: none;
+}
+
+/* Container de cards */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre os cards */
+    margin-top: 8px;
+}
+
+/* Estilo base para os cards */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 150px; /* Largura fixa para o card fechado */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Card expandido */
+.card.expanded {
+    width: 330px; /* Largura maior quando expandido */
+    flex-direction: row;
+}
+
+/* Coluna de detalhes (oculta por padrão) */
+.coluna-detalhes {
+    display: none;
+    padding-left: 10px;
+    width: 200px;
+}
+
+.card.expanded .coluna-detalhes {
+    display: block;
+}
+
+/* Imagem do card */
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para textos dentro dos cards */
+.coluna-detalhes h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.coluna-detalhes p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Estilos para gêneros, plataformas e desenvolvedores */
+.genres,
+.platform,
+.dev {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.genres {
+    background-color: #9C27B0; /* Roxo */
+}
+
+.platform {
+    background-color: #3F51B5; /* Azul */
+}
+
+.dev {
+    background-color: #009688; /* Verde */
+}
+
+/* Estilo para a nota do jogo */
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Cores para as notas */
+.score-very-high {
+    background-color: #1B5E20; /* Verde escuro */
+}
+
+.score-high {
+    background-color: #64DD17; /* Verde */
+}
+
+.score-medium {
+    background-color: #FFB300; /* Amarelo */
+}
+
+.score-low {
+    background-color: #E65100; /* Laranja */
+}
+
+.score-very-low {
+    background-color: #C62828; /* Vermelho */
+}
+
+/* Container para os anos */
+.anos-container {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para os anos de lançamento e jogados */
+.release,
+.played {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.release {
+    background-color: #2196F3; /* Azul */
+}
+
+.played {
+    background-color: #FF9800; /* Laranja */
+}
+
+/* Estilo para a coluna da imagem */
+.coluna-imagem {
+    position: relative; /* Permite que o indicador seja posicionado absolutamente dentro dela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px; /* Largura fixa para a coluna da imagem */
+}
+
+/* Estilo base para o indicador */
+.indicator {
+    position: absolute;
+    bottom: 20px; /* Distância do topo */
+    right: 10px; /* Distância da direita */
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    z-index: 1; /* Garante que fique acima da imagem */
+}
+
+/* Cores para as notas */
+.score-very-high {
+    background-color: #1B5E20; /* Verde escuro */
+}
+
+.score-high {
+    background-color: #64DD17; /* Verde */
+}
+
+.score-medium {
+    background-color: #FFB300; /* Amarelo */
+}
+
+.score-low {
+    background-color: #E65100; /* Laranja */
+}
+
+.score-very-low {
+    background-color: #C62828; /* Vermelho */
+}
+
+/* Estilo específico para o ano de lançamento */
+.indicator.release, .release {
+    border-radius: 5px;
+    background-color: #2196F3; /* Azul */
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: left; /* Centraliza os elementos horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.status-filters {
+    display: flex;
+    justify-content: left; /* Centraliza os botões horizontalmente */
+    align-items: flex-start; /* Alinha os botões ao topo */
+    gap: 50px; /* Espaçamento entre os botões */
+    margin-bottom: 20px; /* Espaço abaixo dos botões */
+    margin-left: 10px;
+    flex-wrap: wrap; /* Permite que os botões quebrem para a próxima linha em telas pequenas */
+    width: 100%; /* Ocupa toda a largura disponível */
+}
+
+.cards-container {
+    width: 100%; /* Ocupa toda a largura disponível */
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
+    gap: 20px; /* Espaçamento entre os cards */
+    justify-content: left; /* Centraliza os cards horizontalmente */
+}
+
+.status-btn {
+    padding: 10px 20px; /* Tamanho interno dos botões */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    flex-shrink: 0; /* Faz os botões ocuparem espaço igual */
+    max-width: 150px; /* Largura máxima para evitar que fiquem muito largos */
+    text-align: left; /* Centraliza o texto dentro dos botões */
+    height: 40px; /* Altura fixa para os botões */
+}
+
+.status-btn.active {
+    transform: scale(1.25); /* Efeito de destaque */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+}
+
+/* Cores específicas para cada botão */
+.status-btn[data-status="Zerado"] {
+    background-color: #4CAF50; /* Verde */
+}
+
+.status-btn[data-status="Platinado"] {
+    background-color: #2196F3; /* Azul */
+}
+
+.status-btn[data-status="Playlist"] {
+    background-color: #FF9800; /* Laranja */
+}
+
+.status-btn[data-status="Dropado"] {
+    background-color: #F44336; /* Vermelho */
+}
+
+.status-btn[data-status="Contínuo"] {
+    background-color: #9C27B0; /* Roxo */
+}
+
+.status-btn:hover {
+    opacity: 0.9; /* Efeito de hover */
+}
+/* Estilo para a imagem no card expandido */
+.card.expanded img {
+    width: 200px; /* Aumenta o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 10px;
+}
+
+/* Ajusta a largura da coluna da imagem no card expandido */
+.card.expanded .coluna-imagem {
+    width: 200px; /* Aumenta a largura da coluna da imagem */
+}
+
+/* Ajusta a largura da coluna de detalhes no card expandido */
+.card.expanded .coluna-detalhes {
+    width: 250px; /* Aumenta a largura da coluna de detalhes */
+}
+
+/* Ajusta a largura do card expandido */
+.card.expanded {
+    width: 380px; /* Aumenta a largura do card expandido */
+    flex-direction: row;
+}
+
+#info-container {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#info-container p {
+    margin: 5px 0;
+}

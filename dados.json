@@ -1,0 +1,271 @@
+[
+    {
+        "title": "A Little to the Left",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co887d.webp",
+        "release": "2022",
+        "played": "2024",
+        "score": "3",
+        "status": ["Zerado"],
+        "genres": ["Puzzle, Relaxante"],
+        "platform": ["Gamepass"],
+        "dev": ""
+    },
+    {
+        "title": "A Way Out",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vca.webp",
+        "release": "2018",
+        "played": "2024",
+        "score": "9",
+        "status": ["Zerado"],
+        "genres": ["Ação","Aventura","Coop"],
+        "platform": ["Gamepass"],
+        "dev": "2K"
+    },    {
+        "title": "Assassin's Creed",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rrw.webp",
+        "release": "2008",
+        "played": "2021",
+        "score": "4",
+        "status": ["Zerado"],
+        "genres": ["Ação","Aventura"],
+        "platform": ["Pirata"],
+        "dev": "Ubisoft"
+        },{
+        "title": "Assassin's Creed II",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5r4g.webp",
+        "release": "2010",
+        "played": "2022",
+        "score": "9",
+        "status": ["Zerado"],
+        "genres": ["Ação","Aventura", "Exploraçãp"],
+        "platform": ["Steam"],
+        "dev": "Ubisoft"
+        },
+    {
+        "title": "Amnesia: The Dark Descent",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qq5.webp",
+        "release": "2010",
+        "played": "2023",
+        "score": "3",
+        "status": ["Zerado"],
+        "genres": ["Clássico","Terror Psicológico"],
+        "platform": ["Epic Games"],
+        "dev": "Frictional Games"
+    },	
+    {
+        "title": "Batman Arkham Origins",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nmd.webp",
+        "release": "2013",
+        "played": "2022",
+        "score": "6",
+        "status": ["Zerado"],
+        "genres": ["Ação", "Exploração", "Mundo Aberto"],
+        "platform": ["Steam"],
+        "dev": "Warner Bros"
+    },{
+        "title": "Bayonetta",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co66g3.webp",
+        "release": "2017",
+        "played": "2024",
+        "score": "9",
+        "status": ["Zerado"],
+        "genres": ["Ação", "Hack and Slash"],
+        "platform": ["Steam"],
+        "dev": "Platinun Games"
+    },
+    {
+        "title": "Bayonettaaaa",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67g3.webp",
+        "release": "2017",
+        "played": "2024",
+        "score": "9",
+        "status": ["Platinado"],
+        "genres": ["Ação", "Hack and Slash"],
+        "platform": ["Steam"],
+        "dev": "Platinun Games"
+    },{
+        "title": "Ben 10: Protector of Earth",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ir4.webp",
+        "release": "2007",
+        "played": "2020",
+        "score": "3",
+        "status": ["Zerado"],
+        "genres": ["Ação", "Beat 'em up"],
+        "platform": ["PS2"],
+        "dev": ""
+    }, {
+        "title": "Ben 10: Alien Force",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6tg9.webp",
+        "release": "2008",
+        "played": "2020",
+        "score": "2",
+        "status": ["Zerado"],
+        "genres": ["Ação", "Beat 'em up"],
+        "platform": ["PS2"],
+        "dev": ""
+    },
+    {
+        "title": "Bioshock Renastered",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54yu.webp",
+        "release": "2016",
+        "played": "2023",
+        "score": "7",
+        "status": ["Zerado"],
+        "genres": ["FPS"],
+        "platform": ["Steam"],
+        "dev": "2K"
+    },{
+        "title": "Bioshock Infinte",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n12.webp",
+        "release": "2013",
+        "played": "2024",
+        "score": "8",
+        "status": ["Zerado"],
+        "genres": ["FPS"],
+        "platform": ["Steam"],
+        "dev": "2K"
+    },{
+        "title": "Blasphemous",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eyn.webp",
+        "release": "2019",
+        "played": "2024",
+        "score": "8",
+        "status": ["Zerado"],
+        "genres": ["Metroidvania"],
+        "platform": ["Steam"],
+        "dev": ["Team17"]
+    },{
+        "title": "Call of Juarez: Gunslinger",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qqf.webp",
+        "release": "2013",
+        "played": "2022",
+        "score": "6",
+        "status": ["Zerado"],
+        "genres": ["FPS"],
+        "platform": ["Steam"],
+        "dev": ""
+    },{
+        "title": "Castlevania",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6dcb.webp",
+        "release": "1986",
+        "played": "2023",
+        "score": "4",
+        "status": "Zerado",
+        "genres": ["Plataforma 2D", "Clássico"],
+        "platform": ["Steam"],
+        "dev": "Konami"
+    },{
+        "title": "Super Castlevania IV",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20dc.webp",
+        "release": "1991",
+        "played": "2021",
+        "score": "5",
+        "status": ["Zerado"],
+        "genres": ["Plataforma 2D", "Clássico"],
+        "platform": ["Steam"],
+        "dev": "Konami"
+    },{
+        "title": "Castlevania: Symphony of the Night",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53m8.webp",
+        "release": "1997",
+        "played": "2022",
+        "score": "7",
+        "status": ["Zerado"],
+        "genres": ["Plataforma 2D", "Metroidvania", "Clássico"],
+        "platform": ["PS1"],
+        "dev": "Konami"
+    },{
+        "title": "Celeste",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3byy.webp",
+        "release": "2018",
+        "played": "2023",
+        "score": "9",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Plataforma 2D", "Plataforma de Precisão", "Indie", "Difícil"],
+        "platform": ["Steam"],
+        "dev": ""
+    },{
+        "title": "Chrono Trigger",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3plw.webp",
+        "release": "1995",
+        "played": "2021",
+        "score": "9",
+        "status": ["Zerado"],
+        "genres": ["RPG", "JRPG", "Clássico"],
+        "platform": ["SNES"],
+        "dev": "Square"
+    },{
+        "title": "Cocoon",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v2z.webp",
+        "release": "2023",
+        "played": "2024",
+        "score": "7",
+        "status": ["Zerado"],
+        "genres": ["Puzzle"],
+        "platform": ["Gamepass"],
+        "dev": "Annapurna Interactive"
+    },{
+        "title": "Cookie Clicker",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8e5m.webp",
+        "release": "2023",
+        "played": "2024",
+        "score": "5",
+        "status": ["Zerado"],
+        "genres": ["Idle, Clicker"],
+        "platform": ["Steam"],
+        "dev": ""
+    },{
+        "title": "Crash Bandicoot",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co555l.webp",
+        "release": "1996",
+        "played": "2021",
+        "score": "8",
+        "status": ["Zerado"],
+        "genres": ["Clássico, Plataforma 3D"],
+        "platform": ["PS1"],
+        "dev": "Naughty Dog"
+    },{
+        "title": "Crash Bandicoot: Warped",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co873w.webp",
+        "release": "1998",
+        "played": "2024",
+        "score": "8",
+        "status": ["Zerado"],
+        "genres": ["Clássico, Plataforma 3D"],
+        "platform": ["PS1"],
+        "dev": "Naughty Dog"
+    }
+    ,{
+        "title": "Crash Bandicoot: Warped",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co973w.webp",
+        "release": "1998",
+        "played": "2024",
+        "score": "8",
+        "status": ["Dropado"],
+        "genres": ["Clássico, Plataforma 3D"],
+        "platform": ["PS1"],
+        "dev": "Naughty Dog"
+    },
+    {
+        "title": "Crash Bandicoot: Warped",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co573w.webp",
+        "release": "1998",
+        "played": "2024",
+        "score": 8,
+        "status": ["Contínuo"],
+        "genres": ["Clássico, Plataforma 3D"],
+        "platform": ["PS1"],
+        "dev": "Naughty Dog"
+    },
+    {
+        "title": "Crash Bandicoot: Warped",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co563w.webp",
+        "release": "1998",
+        "played": "2024",
+        "score": 8,
+        "status": ["Playlist"],
+        "genres": ["Clássico, Plataforma 3D"],
+        "platform": ["PS1"],
+        "dev": "Naughty Dog"
+    }
+]
