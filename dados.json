@@ -6,21 +6,40 @@
         "played": "2024",
         "score": "3",
         "status": ["Zerado"],
-        "genres": ["Puzzle, Relaxante"],
+        "genres": ["Indie","Puzzle","Relaxante"],
         "platform": ["Gamepass"],
         "dev": ""
-    },
-    {
+    },{
+        "title": "A Short Hike",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6e83.webp",
+        "release": "2019",
+        "played": "2024",
+        "score": "7",
+        "status": ["Zerado"],
+        "genres": ["Indie","Casual","Exploração"],
+        "platform": ["Gamepass"],
+        "dev": ""
+    },{
+        "title": "Alba: A Wildlife Adventure",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3uyi.webp",
+        "release": "2020",
+        "played": "2024",
+        "score": "4",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Ação","Aventura","Coop"],
+        "platform": ["Gamepass"],
+        "dev": "2K"
+    },{
         "title": "A Way Out",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vca.webp",
         "release": "2018",
-        "played": "2024",
+        "played": "2023",
         "score": "9",
         "status": ["Zerado"],
         "genres": ["Ação","Aventura","Coop"],
         "platform": ["Gamepass"],
-        "dev": "2K"
-    },    {
+        "dev": ""
+    },{
         "title": "Assassin's Creed",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rrw.webp",
         "release": "2008",
@@ -37,7 +56,7 @@
         "played": "2022",
         "score": "9",
         "status": ["Zerado"],
-        "genres": ["Ação","Aventura", "Exploraçãp"],
+        "genres": ["Ação","Aventura", "Exploração"],
         "platform": ["Steam"],
         "dev": "Ubisoft"
         },
@@ -69,17 +88,6 @@
         "played": "2024",
         "score": "9",
         "status": ["Zerado"],
-        "genres": ["Ação", "Hack and Slash"],
-        "platform": ["Steam"],
-        "dev": "Platinun Games"
-    },
-    {
-        "title": "Bayonettaaaa",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67g3.webp",
-        "release": "2017",
-        "played": "2024",
-        "score": "9",
-        "status": ["Platinado"],
         "genres": ["Ação", "Hack and Slash"],
         "platform": ["Steam"],
         "dev": "Platinun Games"
@@ -134,6 +142,16 @@
         "genres": ["Metroidvania"],
         "platform": ["Steam"],
         "dev": ["Team17"]
+    },{
+        "title": "Bloons TD 6",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n4k.webp",
+        "release": "2018",
+        "played": "",
+        "score": "",
+        "status": ["Dropado"],
+        "genres": ["Tower Defense"],
+        "platform": ["Steam"],
+        "dev": ""
     },{
         "title": "Call of Juarez: Gunslinger",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qqf.webp",
@@ -211,7 +229,7 @@
         "played": "2024",
         "score": "5",
         "status": ["Zerado"],
-        "genres": ["Idle, Clicker"],
+        "genres": ["Idle", "Clicker"],
         "platform": ["Steam"],
         "dev": ""
     },{
@@ -221,7 +239,7 @@
         "played": "2021",
         "score": "8",
         "status": ["Zerado"],
-        "genres": ["Clássico, Plataforma 3D"],
+        "genres": ["Clássico", "Plataforma 3D"],
         "platform": ["PS1"],
         "dev": "Naughty Dog"
     },{
@@ -231,41 +249,308 @@
         "played": "2024",
         "score": "8",
         "status": ["Zerado"],
-        "genres": ["Clássico, Plataforma 3D"],
+        "genres": ["Clássico", "Plataforma 3D"],
         "platform": ["PS1"],
         "dev": "Naughty Dog"
-    }
-    ,{
-        "title": "Crash Bandicoot: Warped",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co973w.webp",
-        "release": "1998",
+    },{
+        "title": "Cave Story+",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2380.webp",
+        "release": "2011",
+        "played": "",
+        "score": "",
+        "status": ["Dropado"],
+        "genres": ["Shooter","Plataforma 2D","Exploração","Indie"],
+        "platform": ["Epic Games"],
+        "dev": ""
+    },{
+        "title": "Chants of Seenaar",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6lrl.webp",
+        "release": "2023",
         "played": "2024",
         "score": "8",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Point and Click","Puzzle","Aventura","Indie"],
+        "platform": ["Gamepass"],
+        "dev": "Rundisc"
+    },{
+        "title": "Cities Skylines",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mx3.webp",
+        "release": "2015",
+        "played": "",
+        "score": "",
         "status": ["Dropado"],
-        "genres": ["Clássico, Plataforma 3D"],
-        "platform": ["PS1"],
-        "dev": "Naughty Dog"
-    },
-    {
-        "title": "Crash Bandicoot: Warped",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co573w.webp",
-        "release": "1998",
+        "genres": ["Simulador","Estratégia"],
+        "platform": ["Epic Games"],
+        "dev": "Paradox"
+    },{
+        "title": "Counter Strike 2",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co92du.webp",
+        "release": "2012",
         "played": "2024",
-        "score": 8,
+        "score": "6",
+        "status": ["Contínuo","Platinado"],
+        "genres": ["Shooter","Tático"],
+        "platform": ["Steam"],
+        "dev": "Valve"
+    },{
+        "title": "Cuphead",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ao.webp",
+        "release": "2017",
+        "played": "2022",
+        "score": "9",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Shooter","Plataforma 2D","Aventura","Indie"],
+        "platform": ["Steam"],
+        "dev": "MDR"
+    },{
+        "title": "Cuphead: The Delicious Last Course",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62al.webp",
+        "release": "2022",
+        "played": "2022",
+        "score": "9",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Shooter","Plataforma 2D","Aventura","Indie"],
+        "platform": ["Steam"],
+        "dev": "MDR"
+    },{
+        "title": "Dark Souls III: Deluxe Edition",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22hn.webp",
+        "release": "2016",
+        "played": "2024",
+        "score": "10",
+        "status": ["Zerado"],
+        "genres": ["RPG","Aventura","Soulslike"],
+        "platform": ["Steam"],
+        "dev": "From Software"
+    },{
+        "title": "Dark Souls: Remastered",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2uro.webp",
+        "release": "2018",
+        "played": "2024",
+        "score": "10",
+        "status": ["Zerado","Platinado"],
+        "genres": ["RPG","Aventura","Soulslike"],
+        "platform": ["Steam"],
+        "dev": "From Software"
+    },{
+        "title": "Dead Space",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5th8.webp",
+        "release": "2011",
+        "played": "2023",
+        "score": "8",
+        "status": ["Zerado"],
+        "genres": ["Shooter","Aventura","Survival Horror"],
+        "platform": ["Steam"],
+        "dev": "Eletronic Arts"
+    },{
+        "title": "Dicey Dungeons",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h3y.webp",
+        "release": "2019",
+        "played": "2023",
+        "score": "7",
+        "status": ["Zerado"],
+        "genres": ["RPG","Aventura","Estratégia"],
+        "platform": ["Steam"],
+        "dev": ""
+    },{
+        "title": "Dishonored",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pcs.webp",
+        "release": "2012",
+        "played": "2023",
+        "score": "10",
+        "status": ["Zerado"],
+        "genres": ["Puzzle","RPG","Aventura","Ação","Stealth"],
+        "platform": ["Steam"],
+        "dev": "Arkane Studios"
+    },{
+        "title": "Distraint: Deluxe Edition",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27tn.webp",
+        "release": "2015",
+        "played": "2021",
+        "score": "3",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Puzzle","Horror","Aventura"],
+        "platform": ["Steam"],
+        "dev": "Ratalaika Games"
+    },{
+        "title": "Doki Doki Literature Club Plus!",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7qyu.webp",
+        "release": "2021",
+        "played": "2024",
+        "score": "5",
+        "status": ["Zerado"],
+        "genres": ["RPG","Horror","Aventura","Simulação","Indie","Visual Novel","Romance"],
+        "platform": ["Epic Games"],
+        "dev": "Team Salvato"
+    },{
+        "title": "Donkey Kong",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4lkt.webp",
+        "release": "1983",
+        "played": "2023",
+        "score": "2",
         "status": ["Contínuo"],
-        "genres": ["Clássico, Plataforma 3D"],
-        "platform": ["PS1"],
-        "dev": "Naughty Dog"
-    },
-    {
-        "title": "Crash Bandicoot: Warped",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co563w.webp",
+        "genres": ["Plataforma 2D","Arcade","Ação"],
+        "platform": ["NES"],
+        "dev": "Nintendo"
+    },{
+        "title": "DOOM",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6w0w.webp",
+        "release": "1994",
+        "played": "",
+        "score": "",
+        "status": ["Dropado"],
+        "genres": ["Shooter","FPS","Ação"],
+        "platform": ["Steam"],
+        "dev": "id Software"
+    },{
+        "title": "Dr. Mario",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co47p9.webp",
         "release": "1998",
-        "played": "2024",
-        "score": 8,
-        "status": ["Playlist"],
-        "genres": ["Clássico, Plataforma 3D"],
-        "platform": ["PS1"],
-        "dev": "Naughty Dog"
+        "played": "",
+        "score": "4",
+        "status": ["Contínuo"],
+        "genres": ["Puzzle"],
+        "platform": ["SNES"],
+        "dev": "Nintendo"
+    },{
+        "title": "Dragon Ball Z Budokai Tenkaichi 2",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u7c.webp",
+        "release": "2006",
+        "played": "2020",
+        "score": "2",
+        "status": ["Zerado"],
+        "genres": ["Ação","Luta 3D"],
+        "platform": ["PS2"],
+        "dev": "Spike"
+    },{
+        "title": "Dragon Ball Z Budokai Tenkaichi 3",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3r52.webp",
+        "release": "2007",
+        "played": "2020",
+        "score": "2",
+        "status": ["Zerado"],
+        "genres": ["Ação","Luta 3D"],
+        "platform": ["PS2"],
+        "dev": "Spike"
+    },{
+        "title": "Duck Hunt",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co42pf.webp",
+        "release": "1984",
+        "played": "",
+        "score": "2",
+        "status": ["Contínuo"],
+        "genres": ["Shooter","Arcade"],
+        "platform": ["NES"],
+        "dev": "Nintendo"
+    },{
+        "title": "Evoland",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2sb1.webp",
+        "release": "2013",
+        "played": "2023",
+        "score": "4",
+        "status": ["Zerado"],
+        "genres": ["RPG","Aventura","Indie"],
+        "platform": ["Epic Games"],
+        "dev": ""
+    },{
+        "title": "Evoland 2",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co295h.webp",
+        "release": "2015",
+        "played": "2023",
+        "score": "",
+        "status": ["Dropado"],
+        "genres": ["RPG","Aventura","Indie"],
+        "platform": ["Epic Games"],
+        "dev": ""
+    },{
+        "title": "F.E.A.R",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rr9.webp",
+        "release": "2005",
+        "played": "2022",
+        "score": "6",
+        "status": ["Zerado"],
+        "genres": ["Shooter","Ação","Horror"],
+        "platform": ["Steam"],
+        "dev": "Monolith Productions"
+    },{
+        "title": "Fallout New Vegas",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u60.webp",
+        "release": "2010",
+        "played": "",
+        "score": "",
+        "status": ["Dropado"],
+        "genres": ["Shooter","RPG"],
+        "platform": ["Steam"],
+        "dev": "Obsidian Entertainment"
+    },{
+        "title": "Far Cry 3",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vpd.webp",
+        "release": "2012",
+        "played": "2022",
+        "score": "9",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Shooter","Aventura","Mundo Aberto"],
+        "platform": ["Ubisoft"],
+        "dev": "Ubisoft"
+    },{
+        "title": "Fatal Fury",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co237q.webp",
+        "release": "1991",
+        "played": "2021",
+        "score": "1",
+        "status": ["Zerado"],
+        "genres": ["Luta 2D"],
+        "platform": ["SNES"],
+        "dev": "SNK"
+    },{
+        "title": "Five Nights at Freddy's",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8efb.webp",
+        "release": "2014",
+        "played": "2020",
+        "score": "2",
+        "status": ["Zerado"],
+        "genres": ["Point and Click","Horror"],
+        "platform": ["Pirata"],
+        "dev": ""
+    },{
+        "title": "Five Nights at Freddy's 2",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71zu.webp",
+        "release": "2014",
+        "played": "2020",
+        "score": "1",
+        "status": ["Zerado"],
+        "genres": ["Point and Click","Horror"],
+        "platform": ["Pirata"],
+        "dev": ""
+    },{
+        "title": "Five Nights at Freddy's 4",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8efh.webp",
+        "release": "2015",
+        "played": "2020",
+        "score": "1",
+        "status": ["Zerado"],
+        "genres": ["Point and Click","Horror"],
+        "platform": ["Pirata"],
+        "dev": ""
+    },{
+        "title": "Five Nights at Freddy's 3",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71zv.webp",
+        "release": "2015",
+        "played": "2020",
+        "score": "1",
+        "status": ["Zerado"],
+        "genres": ["Point and Click","Horror"],
+        "platform": ["Pirata"],
+        "dev": ""
+    },{
+        "title": "Florence",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co295l.webp",
+        "release": "2018",
+        "played": "2025",
+        "score": "6",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Puzzle","Aventura","Indie"],
+        "platform": ["Pirata"],
+        "dev": "Annapurna Interactive"
     }
 ]
