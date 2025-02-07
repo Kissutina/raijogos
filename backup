@@ -1,63 +1,104 @@
-.status-filters {
-    display: flex;
-    justify-content: center; /* Centraliza os botões horizontalmente */
-    align-items: flex-start; /* Alinha os botões ao topo */
-    gap: 200px; /* Espaçamento entre os botões */
-    margin-bottom: 20px; /* Espaço abaixo dos botões */
-    margin-left: 100px;
-    flex-wrap: wrap; /* Permite que os botões quebrem para a próxima linha em telas pequenas */
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('dados.json')
+        .then(response => response.json())
+        .then(data => {
+            // Gráficos de barras e linhas (código existente)
+
+            // Cards para cada categoria
+            createCards(data, 'played', 'played-cards'); // Cards de anos (played)
+            createCards(data, 'release', 'release-cards'); // Cards de anos (release)
+            createCards(data, 'genres', 'genre-cards'); // Cards de gêneros
+            createCards(data, 'platform', 'platform-cards'); // Cards de plataformas
+            createCards(data, 'dev', 'dev-cards'); // Cards de desenvolvedores
+        })
+        .catch(error => console.error('Erro ao carregar os dados:', error));
+});
+
+function createCards(data, category, containerId) {
+    const container = document.getElementById(containerId);
+
+    // Agrupa os dados por ano ou categoria
+    const groupedData = {};
+
+    data.forEach(item => {
+        // Filtra apenas jogos "Zerados"
+        if (item.status.includes("Zerado")) {
+            let keys = [];
+            if (Array.isArray(item[category])) {
+                // Se a categoria for um array (como gêneros), trata cada item como uma chave
+                keys = item[category];
+            } else {
+                // Caso contrário, usa o valor direto (como ano, plataforma, etc.)
+                keys = [item[category]];
+            }
+
+            keys.forEach(key => {
+                if (!groupedData[key]) {
+                    groupedData[key] = {
+                        games: [],
+                        totalScore: 0,
+                        count: 0
+                    };
+                }
+                groupedData[key].games.push(item);
+                groupedData[key].totalScore += parseFloat(item.score);
+                groupedData[key].count++;
+            });
+        }
+    });
+
+    // Filtra grupos com 4 ou mais jogos
+    const filteredGroups = Object.keys(groupedData).filter(key => groupedData[key].count >= 4);
+
+    // Organiza os cards em linhas
+    let row;
+    filteredGroups.forEach((key, index) => {
+        if (index % 2 === 0) {
+            row = document.createElement('div');
+            row.className = 'card-row';
+            container.appendChild(row);
+        }
+
+        const group = groupedData[key];
+        const averageScore = (group.totalScore / group.count).toFixed(2);
+
+        // Ordena os jogos por nota (do maior para o menor)
+        const topGames = group.games
+            .sort((a, b) => parseFloat(b.score) - parseFloat(a.score))
+            .slice(0, 4); // Pega até 4 jogos com as notas mais altas
+
+        // Cria o card
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        // Título do card (ano ou categoria)
+        const title = document.createElement('h4');
+        title.textContent = `${key} | ${group.count} jogos | Nota Média: ${averageScore}`;
+        card.appendChild(title);
+
+        // Container para as imagens
+        const imgContainer = document.createElement('div');
+        imgContainer.className = 'img-container';
+
+        // Imagens dos jogos
+        topGames.forEach(game => {
+            const img = document.createElement('img');
+            img.src = game.img;
+            img.alt = game.title;
+            imgContainer.appendChild(img);
+        });
+
+        card.appendChild(imgContainer);
+        row.appendChild(card);
+    });
 }
 
-.status-btn {
-    padding: 10px 20px; /* Tamanho interno dos botões */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    flex-shrink: 0; /* Faz os botões ocuparem espaço igual */
-    max-width: 150px; /* Largura máxima para evitar que fiquem muito largos */
-    text-align: center; /* Centraliza o texto dentro dos botões */
-    height: 40px; /* Altura fixa para os botões */
-}
-
-.status-btn.active {
-    transform: scale(1.05); /* Efeito de destaque */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
-}
-
-/* Cores específicas para cada botão */
-.status-btn[data-status="Zerados"] {
-    background-color: #4CAF50; /* Verde */
-}
-
-.status-btn[data-status="Platinados"] {
-    background-color: #2196F3; /* Azul */
-}
-
-.status-btn[data-status="Playlist"] {
-    background-color: #FF9800; /* Laranja */
-}
-
-.status-btn[data-status="Dropados"] {
-    background-color: #F44336; /* Vermelho */
-}
-
-.status-btn[data-status="Contínuos"] {
-    background-color: #9C27B0; /* Roxo */
-}
-
-.status-btn:hover {
-    opacity: 0.9; /* Efeito de hover */
-}
 
 
-<!--<div class="status-filters">
-<button class="status-btn active" data-status="Zerados">Zerados</button>
-<button class="status-btn" data-status="Platinados">Platinados</button>
-<button class="status-btn" data-status="Playlist">Playlist</button>
-<button class="status-btn" data-status="Dropados">Dropados</button>
-<button class="status-btn" data-status="Contínuos">Contínuos</button>
-</div>
+
+PLAYED
+|--------------------------------|   |--------------------------------|
+| anox xjogos xnota média     |  | anox xjogos xnota média     | >>>>>>
+| img1 img2 img3 img4          |  | img1 img2 img3 img4          |
+
+pra melhorar a vizualização, mostra apenas cards que tenham 3 ou mais resultados atrelados a ele, para o calculo de nota média, valem apenas os jogos "Zerados"

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficos de Dados</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Gráficos de Dados</h1>
+    <div id="charts">
+        <!-- Gráficos de barras (status, genres, platform, dev, score) -->
+    </div>
+    <div class="line-charts">
+        <div class="chart-container">
+            <h2>RELEASE</h2>
+            <select id="releaseDataSelector">
+                <option value="average">SCORE MÉDIA</option>
+                <option value="count">NÚMERO DE TÍTULOS</option>
+            </select>
+            <canvas id="releaseChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>PLAYED</h2>
+            <select id="playedDataSelector">
+                <option value="average">SCORE MÉDIA</option>
+                <option value="count">NÚMERO DE TÍTULOS</option>
+            </select>
+            <canvas id="playedChart"></canvas>
+        </div>
+    </div>
+    <div id="cards-container">
+        <h2>Cards de Anos/Categorias</h2>
+        <div id="played-cards" class="cards-section">
+            <h2>PLAYED</h2>
+            <!-- Cards de anos (played) serão inseridos aqui -->
+        </div>
+        <div id="release-cards" class="cards-section">
+            <h2>RELEASE</h2>
+            <!-- Cards de anos (release) serão inseridos aqui -->
+        </div>
+        <div id="genre-cards" class="cards-section">
+            <h2>GENRE</h2>
+            <!-- Cards de gêneros serão inseridos aqui -->
+        </div>
+        <div id="platform-cards" class="cards-section">
+            <h2>PLATFORM</h2>
+            <!-- Cards de plataformas serão inseridos aqui -->
+        </div>
+        <div id="dev-cards" class="cards-section">
+            <h2>DEVELOPER</h2>
+            <!-- Cards de desenvolvedores serão inseridos aqui -->
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
