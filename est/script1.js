@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('dados1.json')
+    fetch('../dados.json')
         .then(response => {
             console.log('Resposta do fetch:', response);
             return response.json();
