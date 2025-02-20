@@ -1,7 +1,7 @@
 [
     {
         "title": "A Little to the Left",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co887d.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/d6988fe593118b3f5195cbf44e90c204.png",
         "release": "2022",
         "played": "2024",
         "score": "3",
@@ -11,7 +11,7 @@
         "dev": ""
     },{
         "title": "A Short Hike",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6e83.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/7b815f14374af57daa6505c20ae445d2.png",
         "release": "2019",
         "played": "2025",
         "score": "8",
@@ -31,7 +31,7 @@
         "dev": ""
     },{
         "title": "A Way Out",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vca.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/b4049e3fde920ab9e5af9f47b292a6c5.png",
         "release": "2018",
         "played": "2023",
         "score": "9",
@@ -181,7 +181,7 @@
         "dev": "Konami"
     },{
         "title": "Castlevania: Symphony of the Night",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53m8.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/13e50e203d8be253cc8cd7fbe1509c63.png",
         "release": "1997",
         "played": "2022",
         "score": "7",
@@ -231,7 +231,7 @@
         "dev": ""
     },{
         "title": "Crash Bandicoot",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co555l.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/8282b546dda9ec05515966ba0fe3e5d1.png",
         "release": "1996",
         "played": "2021",
         "score": "8",
@@ -411,7 +411,7 @@
         "dev": "Nintendo"
     },{
         "title": "Dragon Ball Z Budokai Tenkaichi 2",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u7c.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/1ad7304aae178dab468f1fecec6eb439.png",
         "release": "2006",
         "played": "2020",
         "score": "2",
@@ -423,8 +423,8 @@
         "title": "Dragon Ball Z Budokai Tenkaichi 3",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3r52.webp",
         "release": "2007",
-        "played": "2020",
-        "score": "2",
+        "played": "2025",
+        "score": "6",
         "status": ["Zerado"],
         "genres": ["Ação","Luta 3D"],
         "platform": ["PS2"],
@@ -501,7 +501,7 @@
         "dev": "SNK"
     },{
         "title": "Five Nights at Freddy's",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8efb.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/a8764d790da8da4b839b2f1cc3542f26.png",
         "release": "2014",
         "played": "2020",
         "score": "2",
@@ -511,7 +511,7 @@
         "dev": ""
     },{
         "title": "Five Nights at Freddy's 2",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71zu.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/2da44b3187ef43f30627344ee47d0741.png",
         "release": "2014",
         "played": "2020",
         "score": "1",
@@ -521,7 +521,7 @@
         "dev": ""
     },{
         "title": "Five Nights at Freddy's 4",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8efh.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/f17dc7f54276b8b4ae0fe9b3c6d41063.png",
         "release": "2015",
         "played": "2020",
         "score": "1",
@@ -531,7 +531,7 @@
         "dev": ""
     },{
         "title": "Five Nights at Freddy's 3",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71zv.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/7143811528faaaab3bc6e776e664555c.png",
         "release": "2015",
         "played": "2020",
         "score": "1",
@@ -592,7 +592,7 @@
     },{
         "title": "God of War II",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dik.webp",
-        "release": "2005",
+        "release": "2007",
         "played": "2022",
         "score": "8",
         "status": ["Zerado"],
@@ -691,7 +691,7 @@
         "dev": ["Curve Digital"]
     },{
         "title": "ICO",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3r78.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/54c8077a3713597237f91535a6082b1f.jpg",
         "release": "2001",
         "played": "2024",
         "score": "7",
@@ -881,7 +881,7 @@
         "dev": ["Nintendo"]
     },{
         "title": "Mega Man II",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5572.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/16266c6156a9fda5bbd9ea9a566042bd.png",
         "release": "1991",
         "played": "2021",
         "score": "4",
@@ -891,7 +891,7 @@
         "dev": ["Capcom"]
     },{
         "title": "Metal Gear Solud",
-        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k2q.webp",
+        "img": "https://cdn2.steamgriddb.com/grid/3ac4511ba0302570efea191ea1a2d0b4.jpg",
         "release": "1998",
         "played": "2022",
         "score": "9",
@@ -976,7 +976,7 @@
         "played": "2022",
         "score": "3",
         "status": ["Zerado"],
-        "genres": ["Luta 3D","Ação"],
+        "genres": ["Luta 2D","Ação"],
         "platform": ["Steam"],
         "dev": ["NetherRealm","WB Games"]
     },{
@@ -988,7 +988,7 @@
         "status": ["Contínuo"],
         "genres": ["Arcade"],
         "platform": ["Master System"],
-        "dev": ["Midway","Atari","Nanco"]
+        "dev": ["Midway","Atari","Namco"]
     },{
         "title": "Muse Dash",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6h43.webp",
@@ -1009,5 +1009,605 @@
         "genres": ["Plataforma 2D","Indie"],
         "platform": ["Epic Games"],
         "dev": [""]
+    },{
+        "title": "Ori and the Blind Forest",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y41.webp",
+        "release": "2015",
+        "played": "2020",
+        "score": "8",
+        "status": ["Zerado"],
+        "genres": ["Plataforma 2D","Puzzle","Aventura"],
+        "platform": ["Gamepass"],
+        "dev": ["Moon Studios","Microsoft"]
+    },{
+        "title": "Outlast",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yat.webp",
+        "release": "2013",
+        "played": "2022",
+        "score": "7",
+        "status": ["Zerado"],
+        "genres": ["Horror"],
+        "platform": ["Steam"],
+        "dev": ["Red Barrels"]
+    },{
+        "title": "PAC-MAN",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7opo.webp",
+        "release": "2013",
+        "played": "1980",
+        "score": "3",
+        "status": ["Contínuo"],
+        "genres": ["Arcade"],
+        "platform": [""],
+        "dev": ["Namco"]
+    },{
+        "title": "Paladins",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p3u.webp",
+        "release": "2017",
+        "played": "",
+        "score": "3",
+        "status": ["Contínuo"],
+        "genres": ["Hero Shooter"],
+        "platform": ["Steam"],
+        "dev": ["Hi-Rez"]
+    },{
+        "title": "Overwatch 2",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co885f.webp",
+        "release": "2023",
+        "played": "2023",
+        "score": "7",
+        "status": ["Contínuo"],
+        "genres": ["Hero Shooter"],
+        "platform": ["Steam"],
+        "dev": ["Blizzard"]
+    },{
+        "title": "Papers, Please",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vep.webp",
+        "release": "2013",
+        "played": "2024",
+        "score": "3",
+        "status": ["Zerado"],
+        "genres": ["Point and Click","Puzzle"],
+        "platform": ["Steam"],
+        "dev": ["Lucas Pope"]
+    },{
+        "title": "PaRappa the Rapper",
+        "img": "https://cdn2.steamgriddb.com/grid/b5fee68841637f18c1835e6fb791f31a.jpg",
+        "release": "2006",
+        "played": "2024",
+        "score": "3",
+        "status": ["Zerado"],
+        "genres": ["Música"],
+        "platform": ["PS1"],
+        "dev": ["Sony"]
+    },{
+        "title": "PICO PARK: Classic Edition",
+        "img": "https://cdn2.steamgriddb.com/grid/0ac6d0b2330dddcb2d0393a2d0239321.jpg",
+        "release": "2016",
+        "played": "2024",
+        "score": "5",
+        "status": ["Zerado"],
+        "genres": ["Coop"],
+        "platform": ["Steam"],
+        "dev": [""]
+    },{
+        "title": "Plague Inc. Evolved",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f6t.webp",
+        "release": "2015",
+        "played": "2023",
+        "score": "6",
+        "status": ["Zerado"],
+        "genres": ["RTS"],
+        "platform": ["Steam"],
+        "dev": [""]
+    },{
+        "title": "Plants vs Zombies",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co69id.webp",
+        "release": "2009",
+        "played": "2024",
+        "score": "9",
+        "status": ["Zerado"],
+        "genres": ["Tower Defense","RTS"],
+        "platform": ["Steam"],
+        "dev": ["PopCap","Eletronic Arts"]
+    },{
+        "title": "Portal",
+        "img": "https://cdn2.steamgriddb.com/grid/60d58eafbef6da2e2bd56b40cd8835ed.png",
+        "release": "2007",
+        "played": "2022",
+        "score": "6",
+        "status": ["Zerado"],
+        "genres": ["Puzzle","Plataforma 3D"],
+        "platform": ["Steam"],
+        "dev": ["Valve"]
+    },{
+        "title": "Portal 2",
+        "img": "https://cdn2.steamgriddb.com/grid/9ebc0e97da8e0e5083fea7203f194d2b.png",
+        "release": "2011",
+        "played": "2021",
+        "score": "10",
+        "status": ["Zerado"],
+        "genres": ["Puzzle","Plataforma 3D"],
+        "platform": ["Steam"],
+        "dev": ["Valve"]
+    },{
+        "title": "Puyo Puyo Tetris",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vws.webp",
+        "release": "2014",
+        "played": "2024",
+        "score": "9",
+        "status": ["Zerado"],
+        "genres": ["Arcade","Puzzle"],
+        "platform": ["Steam"],
+        "dev": ["Sega"]
+    },{
+        "title": "Pokemon Fire Red",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ziq.webp",
+        "release": "2004",
+        "played": "2021",
+        "score": "7",
+        "status": ["Zerado","Platinado"],
+        "genres": ["RPG","Creature Collector"],
+        "platform": ["GBA"],
+        "dev": ["Nintendo","Game Freak"]
+    },{
+        "title": "Ratatouille",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2je2.webp",
+        "release": "2007",
+        "played": "2024",
+        "score": "6",
+        "status": ["Zerado"],
+        "genres": ["Plataforma 3D"],
+        "platform": ["PS2"],
+        "dev": [""]
+    },{
+        "title": "Remnant: From the Ashes",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m4w.webp",
+        "release": "2019",
+        "played": "2024",
+        "score": "",
+        "status": ["Dropado"],
+        "genres": ["Shooter"],
+        "platform": ["Steam"],
+        "dev": [""]
+    },{
+        "title": "Resident Evil 2 Remake",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ir3.webp",
+        "release": "2019",
+        "played": "2022",
+        "score": "10",
+        "status": ["Zerado"],
+        "genres": ["Survival Horror","Puzzle"],
+        "platform": ["Steam"],
+        "dev": ["Capcom"]
+    },{
+        "title": "Resident Evil 4",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ci.webp",
+        "release": "2005",
+        "played": "2025",
+        "score": "9",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Survival Horror","Puzzle"],
+        "platform": ["Steam"],
+        "dev": ["Capcom"]
+    },{
+        "title": "Resident Evil 7",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uu1.webp",
+        "release": "2017",
+        "played": "2022",
+        "score": "9",
+        "status": ["Zerado"],
+        "genres": ["Survival Horror","Puzzle"],
+        "platform": ["Steam"],
+        "dev": ["Capcom"]
+    },{
+        "title": "Resident Evil Remake",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1taw.webp",
+        "release": "2005",
+        "played": "2023",
+        "score": "8",
+        "status": ["Zerado"],
+        "genres": ["Survival Horror","Puzzle"],
+        "platform": ["Steam"],
+        "dev": ["Capcom"]
+    },{
+        "title": "Return of the Obra Dinn",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27j9.webp",
+        "release": "2018",
+        "played": "2024",
+        "score": "9",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Puzzle","Indie"],
+        "platform": ["Pirata"],
+        "dev": ["Lucas Pope"]
+    },{
+        "title": "Rise of the Tomb Raider",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rqa.webp",
+        "release": "2015",
+        "played": "2025",
+        "score": "7",
+        "status": ["Zerado"],
+        "genres": ["Aventura"],
+        "platform": ["Epic Games"],
+        "dev": ["Crystal Dynamics","Square Enix"]
+    },{
+        "title": "River City Girls",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2r5w.webp",
+        "release": "2019",
+        "played": "2023",
+        "score": "5",
+        "status": ["Zerado"],
+        "genres": ["Beat 'em up"],
+        "platform": ["Pirata"],
+        "dev": ["Arc System Works","WayFoward"]
+    },{
+        "title": "Rusty Lake Hotel",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7h4x.webp",
+        "release": "2015",
+        "played": "2023",
+        "score": "1",
+        "status": ["Zerado"],
+        "genres": ["Puzzle","Point and Click"],
+        "platform": ["Steam"],
+        "dev": [""]
+    },{
+        "title": "Dragon Ball Advance Adventure",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3zef.webp",
+        "release": "2004",
+        "played": "2025",
+        "score": "5",
+        "status": "Zerado",
+        "genres": ["Beat and Up","Luta 2D"],
+        "platform": "GBA",
+        "dev": "Dimps"
+    },{
+        "title": "Saints Row: The Third",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2634.webp",
+        "release": "2011",
+        "played": "2021",
+        "score": "8",
+        "status": "Zerado",
+        "genres": ["Mundo Aberto"],
+        "platform": "Steam",
+        "dev": ["Volition","Square Enix"]
+    },{
+        "title": "Sayonara Wild Hearts",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gx1.webp",
+        "release": "2019",
+        "played": "2022",
+        "score": "5",
+        "status": "Zerado",
+        "genres": ["Música","Indie"],
+        "platform": "Steam",
+        "dev": ["Annapurna Interactive"]
+    },{
+        "title": "Sea of Stars",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co215b.webp",
+        "release": "2023",
+        "played": "2024",
+        "score": "",
+        "status": "Dropado",
+        "genres": ["RPG","Indie"],
+        "platform": "Gamepass",
+        "dev": ["Sabotage"]
+    },{
+        "title": "Shadow of the Colossus",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ijk.webp",
+        "release": "2005",
+        "played": "2024",
+        "score": "10",
+        "status": "Zerado",
+        "genres": ["Puzzle","Ação"],
+        "platform": "PS2",
+        "dev": ["Team ICO","Sony"]
+    },{
+        "title": "Shantae and the Pirate's Curse",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4b1u.webp",
+        "release": "2014",
+        "played": "2023",
+        "score": "5",
+        "status": "Zerado",
+        "genres": ["Plataforma 2D","Indie"],
+        "platform": "GOG",
+        "dev": ["WayFoward"]
+    },{
+        "title": "SOMA",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a20.webp",
+        "release": "2015",
+        "played": "2020",
+        "score": "5",
+        "status": "Zerado",
+        "genres": ["Horror"],
+        "platform": "Steam",
+        "dev": ["Frictional Games"]
+    },{
+        "title": "Sonic the Hedgehog",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71xk.webp",
+        "release": "1991",
+        "played": "2021",
+        "score": "3",
+        "status": "Zerado",
+        "genres": ["Plataforma 2D"],
+        "platform": "SEGA",
+        "dev": ["Sega"]
+    },{
+        "title": "Sonic the Hedgehog 2",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rv2.webp",
+        "release": "1992",
+        "played": "2024",
+        "score": "3",
+        "status": "Zerado",
+        "genres": ["Plataforma 2D"],
+        "platform": "Steam",
+        "dev": ["Sega"]
+    },{
+        "title": "SteamWorld Dig",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/v1jtxva0er1d25ui0o8p.webp",
+        "release": "2013",
+        "played": "2024",
+        "score": "5",
+        "status": "Zerado",
+        "genres": ["Plataforma 2D"],
+        "platform": "Steam",
+        "dev": [""]
+    },{
+        "title": "SteamWorld Dig 2",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24u8.webp",
+        "release": "2017",
+        "played": "2022",
+        "score": "5",
+        "status": "Zerado",
+        "genres": ["Plataforma 2D"],
+        "platform": "Steam",
+        "dev": [""]
+    },{
+        "title": "Street Fighter",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bl6.webp",
+        "release": "1988",
+        "played": "2024",
+        "score": "1",
+        "status": "Zerado",
+        "genres": ["Luta 2D"],
+        "platform": "Steam",
+        "dev": ["Capcom"]
+    },{
+        "title": "Street Fighter 2",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55et.webp",
+        "release": "1991",
+        "played": "2021",
+        "score": "2",
+        "status": "Zerado",
+        "genres": ["Luta 2D"],
+        "platform": "Steam",
+        "dev": ["Capcom"]
+    },{
+        "title": "Super Mario 64",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co721v.webp",
+        "release": "1996",
+        "played": "2024",
+        "score": "8",
+        "status": "Zerado",
+        "genres": ["Plataforma 3D"],
+        "platform": "Nintendo 64",
+        "dev": ["Nintendo"]
+    },{
+        "title": "Super Mario Sunshine",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21rh.webp",
+        "release": "2002",
+        "played": "2023",
+        "score": "9",
+        "status": "Zerado",
+        "genres": ["Plataforma 3D"],
+        "platform": "Nintendo Gamecube",
+        "dev": ["Nintendo"]
+    },{
+        "title": "Super Mario World",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31e7.webp",
+        "release": "1995",
+        "played": "2021",
+        "score": "8",
+        "status": "Zerado",
+        "genres": ["Plataforma 2D"],
+        "platform": "SNES",
+        "dev": ["Nintendo"]
+    },{
+        "title": "Superliminal",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uqz.webp",
+        "release": "2019",
+        "played": "2024",
+        "score": "3",
+        "status": "Zerado",
+        "genres": ["Puzzle"],
+        "platform": "Gamepass",
+        "dev": [""]
+    },{
+        "title": "Team Fortress 2",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6rzl.webp",
+        "release": "2007",
+        "played": "",
+        "score": "",
+        "status": "Contínuo",
+        "genres": ["FPS","Hero Shooter"],
+        "platform": "Steam",
+        "dev": ["Valve"]
+    },{
+        "title": "Tekken 5",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45jq.webp",
+        "release": "2004",
+        "played": "2025",
+        "score": "5",
+        "status": "Zerado",
+        "genres": ["Luta 3D"],
+        "platform": "PS2",
+        "dev": ["Namco"]
+    },{
+        "title": "Terraria",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbo.webp",
+        "release": "2011",
+        "played": "2024",
+        "score": "9",
+        "status": "Zerado",
+        "genres": ["Sandbox"],
+        "platform": "Steam",
+        "dev": ["Namco"]
+    },{
+        "title": "Tetris Attack",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dp0.webp",
+        "release": "1996",
+        "played": "",
+        "score": "",
+        "status": "Contínuo",
+        "genres": ["Arcade"],
+        "platform": "SNES",
+        "dev": ["Nintendo"]
+    },{
+        "title": "The Binding of Isaac: Rebirth",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lbm.webp",
+        "release": "2014",
+        "played": "2023",
+        "score": "6",
+        "status": "Zerado",
+        "genres": ["Indie"],
+        "platform": "Steam",
+        "dev": [""]
+    },{
+        "title": "The Legend of Zelda",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uii.webp",
+        "release": "1986",
+        "played": "2024",
+        "score": "6",
+        "status": "Zerado",
+        "genres": ["Aventura"],
+        "platform": "NES",
+        "dev": ["Nintendo"]
+    },{
+        "title": "The Legend of Zelda: A Link to the Past",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vzn.webp",
+        "release": "1991",
+        "played": "2024",
+        "score": "8",
+        "status": "Zerado",
+        "genres": ["Aventura"],
+        "platform": "SNES",
+        "dev": ["Nintendo"]
+    },{
+        "title": "The Legend of Zelda: Link's Awakening",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qve.webp",
+        "release": "2019",
+        "played": "2024",
+        "score": "8",
+        "status": "Zerado",
+        "genres": ["Aventura"],
+        "platform": "Switch",
+        "dev": ["Nintendo","Grezzo"]
+    },{
+        "title": "The Legend of Zelda: Majora's Mask",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3pah.webp",
+        "release": "2000",
+        "played": "2023",
+        "score": "10",
+        "status": "Zerado",
+        "genres": ["Aventura"],
+        "platform": "Nintendo 64",
+        "dev": ["Nintendo"]
+    },{
+        "title": "The Legend of Zelda: Ocarina of Time",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nnx.webp",
+        "release": "1998",
+        "played": "2024",
+        "score": "10",
+        "status": "Zerado",
+        "genres": ["Aventura"],
+        "platform": "Nintendo 64",
+        "dev": ["Nintendo"]
+    },{
+        "title": "The Legend of Zelda: Ocarina of Time 3D",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co600u.webp",
+        "release": "2011",
+        "played": "2023",
+        "score": "9",
+        "status": "Zerado",
+        "genres": ["Aventura"],
+        "platform": "Nintendo 3DS",
+        "dev": ["Nintendo","Grezzo"]
+    },{
+        "title": "The Legend of Zelda: Wind Waker HD",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ozi.webp",
+        "release": "2013",
+        "played": "2024",
+        "score": "10",
+        "status": "Zerado",
+        "genres": ["Aventura"],
+        "platform": "Nintendo Wii U",
+        "dev": ["Nintendo"]
+    },{
+        "title": "The Room",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27bf.webp",
+        "release": "2012",
+        "played": "2021",
+        "score": "5",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Puzzle"],
+        "platform": "Steam",
+        "dev": ["Team17"]
+    },{
+        "title": "The Room Two",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vgz.webp",
+        "release": "2013",
+        "played": "2025",
+        "score": "5",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Puzzle"],
+        "platform": "Steam",
+        "dev": [""]
+    },{
+        "title": "The Walking Dead",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j1g.webp",
+        "release": "2012",
+        "played": "2022",
+        "score": "8",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Point and Click"],
+        "platform": "Steam",
+        "dev": ["Telltale"]
+    },{
+        "title": "The Witcher 3: Wild Hunt",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.webp",
+        "release": "2015",
+        "played": "",
+        "score": "",
+        "status": ["Playlist"],
+        "genres": [""],
+        "platform": "Steam",
+        "dev": [""]
+    },{
+        "title": "Titan Souls",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xo0.webp",
+        "release": "2015",
+        "played": "2021",
+        "score": "7",
+        "status": ["Zerado"],
+        "genres": ["Aventura","Indie"],
+        "platform": "Steam",
+        "dev": ["Devolver Digital"]
+    },{
+        "title": "Tomb Raider",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbu.webp",
+        "release": "2013",
+        "played": "2024",
+        "score": "8",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Aventura","Puzzle"],
+        "platform": "Steam",
+        "dev": ["Crystal Dynamics"]
+    },{
+        "title": "Twelve Minutes",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co77xc.webp",
+        "release": "2021",
+        "played": "2022",
+        "score": "3",
+        "status": ["Zerado","Platinado"],
+        "genres": ["Point and Click","Puzzle"],
+        "platform": "Gamepass",
+        "dev": ["Annapurna Interactive"]
     }
 ]
