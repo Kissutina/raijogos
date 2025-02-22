@@ -1609,5 +1609,55 @@
         "genres": ["Point and Click","Puzzle"],
         "platform": "Gamepass",
         "dev": ["Annapurna Interactive"]
+    },{
+        "title": "Fire Emblem: Awakening",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co668y.webp",
+        "release": "2012",
+        "played": "",
+        "score": "",
+        "status": ["Playlist"],
+        "genres": ["Estratégia","RPG"],
+        "platform": "Nintendo 3DS",
+        "dev": ["Nintendo"]
+    },{
+        "title": "The Legend of Zelda: A Link in Between Worlds",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co668y.webp",
+        "release": "2013",
+        "played": "",
+        "score": "",
+        "status": ["Playlist"],
+        "genres": ["Aventura","Puzzle"],
+        "platform": "Nintendo 3DS",
+        "dev": ["Nintendo"]
+    },{
+        "title": "The Legend of Zelda: Majora's Mask 3D",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ujb.webp",
+        "release": "2015",
+        "played": "",
+        "score": "",
+        "status": ["Playlist"],
+        "genres": ["Aventura"],
+        "platform": "Nintendo 3DS",
+        "dev": ["Nintendo","Grezzo"]
+    },{
+        "title": "Pokemon Y",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z9m.webp",
+        "release": "2013",
+        "played": "",
+        "score": "",
+        "status": ["Playlist"],
+        "genres": ["Creature Collector","RPG"],
+        "platform": "Nintendo 3DS",
+        "dev": ["Nintendo","Game Freak"]
+    },{
+        "title": "Pokemon X",
+        "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8y.webp",
+        "release": "2013",
+        "played": "",
+        "score": "",
+        "status": ["Playlist"],
+        "genres": ["Creature Collector","RPG"],
+        "platform": "Nintendo 3DS",
+        "dev": ["Nintendo","Game Freak"]
     }
 ]

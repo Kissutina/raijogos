@@ -429,3 +429,70 @@ body {
 .btn-link:active {
     background-color: #3e8e41;
 }
+/* Media Query para telas menores que 768px (celulares) */
+@media (max-width: 768px) {
+    .container {
+        margin-left: 0; /* Remove a margem lateral para a barra de filtros */
+        padding: 10px; /* Reduz o padding */
+    }
+
+    .filters-sidebar {
+        position: static; /* Remove a posição fixa */
+        width: 100%; /* Ocupa toda a largura */
+        height: auto; /* Altura automática */
+        padding: 10px; /* Reduz o padding */
+        box-shadow: none; /* Remove a sombra */
+        margin-bottom: 20px; /* Adiciona margem inferior */
+    }
+
+    .search-top {
+        width: 100%; /* Ocupa toda a largura */
+    }
+
+    .status-filters {
+        gap: 10px; /* Reduz o espaçamento entre os botões */
+        justify-content: center; /* Centraliza os botões */
+    }
+
+    .status-btn {
+        width: 100%; /* Botões ocupam toda a largura */
+        max-width: none; /* Remove a largura máxima */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .cards-container {
+        justify-content: center; /* Centraliza os cards */
+    }
+
+    .card {
+        width: 100%; /* Cards ocupam toda a largura */
+        max-width: 300px; /* Define uma largura máxima para evitar que fiquem muito largos */
+    }
+
+    .card.expanded {
+        width: 100%; /* Cards expandidos ocupam toda a largura */
+        max-width: 300px; /* Define uma largura máxima */
+    }
+
+    .card.expanded img {
+        width: 100%; /* Imagem ocupa toda a largura do card */
+    }
+
+    .coluna-imagem {
+        width: 100%; /* Coluna da imagem ocupa toda a largura */
+    }
+
+    .coluna-detalhes {
+        width: 100%; /* Coluna de detalhes ocupa toda a largura */
+    }
+
+    .filter-group input,
+    .filter-group select {
+        width: 100%; /* Inputs e selects ocupam toda a largura */
+    }
+
+    .btn-link {
+        width: 100%; /* Botões de link ocupam toda a largura */
+        margin-top: 10px; /* Adiciona margem superior */
+    }
+}
