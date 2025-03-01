@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Estatísticas</h1>
+    <div class="container">
+        <!-- Área de filtros (esquerda) -->
+        <div id="filters-container" class="filters">
+            <h2>Filtros</h2>
+            <button data-category="played">Played</button>
+            <button data-category="release">Release</button>
+            <button data-category="genres">Genres</button>
+            <button data-category="platform">Platform</button>
+            <button data-category="dev">Dev</button>
+
+
+            <h2>Ordenar Por</h2>
+            <button id="sort-alphabetical">Ordem Alfabética</button>
+            <button id="sort-count">Número de Jogos</button>
+            <button id="sort-score">Nota Média</button>
+
+            <h2>Navegação</h2>
+            <button onclick="window.location.href='../index.html'">Home</button>
+            <button onclick="window.location.href='../lista/index.html'">Lista de Jogos</button>
+        </div>
+
+        <!-- Área de cards (direita) -->
+        <div id="sections-container" class="cards"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

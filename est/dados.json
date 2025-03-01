@@ -1032,8 +1032,8 @@
     },{
         "title": "PAC-MAN",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7opo.webp",
-        "release": "1980",
-        "played": "",
+        "release": "2013",
+        "played": "1980",
         "score": "3",
         "status": ["Contínuo"],
         "genres": ["Arcade"],
@@ -1448,7 +1448,7 @@
         "status": "Zerado",
         "genres": ["Sandbox"],
         "platform": "Steam",
-        "dev": ["Namco"]
+        "dev": [""]
     },{
         "title": "Tetris Attack",
         "img": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dp0.webp",

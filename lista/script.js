@@ -163,13 +163,7 @@ function criarCards(dados) {
                 }
             });
             card.classList.toggle('expanded'); // Expande/recolhe o card clicado
-        
         });
-
-     // Rola a página para o card expandido
-     if (card.classList.contains('expanded')) {
-        card.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }       
 
         // Adiciona o card ao container
         container.appendChild(card);

@@ -1,0 +1,6 @@
+    margin-left: 10px;
+    width: 300px; /* Tamanho fixo para as imagens */
+    height: 310px;
+    object-fit: cover; /* Mantém a proporção da imagem */
+    border-radius: 10px;
+}

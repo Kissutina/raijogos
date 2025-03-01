@@ -21,62 +21,19 @@
             <button class="status-btn" data-status="Dropado">Dropados</button>
             <button class="status-btn" data-status="Contínuo">Contínuos</button>
         </div>
-        
 
         <!-- Área de filtros na lateral -->
         <div class="filters-sidebar">
-
-            <!-- Botão para index1.html -->
-            <div class="filter-group">
-                <a href="../home\index.html" class="btn-link">Ir para Home</a>
-            </div>
-
-            <div class="filter-group">
-                <a href="../est\index1.html" class="btn-link">Ir para Estatísticas</a>
-            </div>
-
-            <div class="filter-group">
-                <h3 class="filtertext">Nota:</h3>
-                <select id="filterNota">
-                    <option value="">0 - Todos</option>
-                    <option value="1">1 - Tragédia</option>
-                    <option value="2">2 - Terrível</option>
-                    <option value="3">3 - Ruim</option>
-                    <option value="4">4 - Medíocre</option>
-                    <option value="5">5 - Tanto Faz</option>
-                    <option value="6">6 - Decente</option>
-                    <option value="7">7 - Bom</option>
-                    <option value="8">8 - Muito Bom</option>
-                    <option value="9">9 - Ótimo</option>
-                    <option value="10">10 - Perfeito</option>
-                </select>
-            </div>            
-
-            <div class="filter-group">
-                <h3 class="filtertext">Plataforma:</h3>
-                <select id="filterPlatform">
-                    <option value="">Todos</option>
-                    <option value="Steam">Steam</option>
-                    <option value="Ubisoft">Ubisoft</option>
-                    <option value="Epic Games">Epic Games</option>
-                    <option value="Gamepass">Gamepass</option>
-                    <option value="PS2">PS2</option>
-                    <option value="PS1">PS1</option>
-                    <option value="SEGA">SEGA</option>
-                    <option value="Windows">Windows</option>
-                    <option value="NES">NES</option>
-                    <option value="Nintendo 3DS">Nintendo 3DS</option>
-                    <option value="Nintendo DS">Nintendo DS</option>
-                    <option value="SNES">SNES</option>
-                    <option value="Pirata">Pirata</option>
-                </select>
-            </div>            
-
             <h3 class="filtertext">Filtros</h3>
 
             <!-- Filtro por gênero -->
             <div class="filter-group">
                 <input type="text" id="filterGenres" placeholder="Filtrar por gênero...">
+            </div>
+
+            <!-- Filtro por plataforma -->
+            <div class="filter-group">
+                <input type="text" id="filterPlatform" placeholder="Filtrar por plataforma...">
             </div>
 
             <!-- Filtro por desenvolvedor -->
@@ -102,6 +59,23 @@
                 </select>
             </div>
 
+            <div class="filter-group">
+                <h3 class="filtertext">Nota:</h3>
+                <select id="filterNota">
+                    <option value="">0 - Todos</option>
+                    <option value="1">1 - Tragédia</option>
+                    <option value="2">2 - Terrível</option>
+                    <option value="3">3 - Ruim</option>
+                    <option value="4">4 - Medíocre</option>
+                    <option value="5">5 - Tanto Faz</option>
+                    <option value="6">6 - Decente</option>
+                    <option value="7">7 - Bom</option>
+                    <option value="8">8 - Muito Bom</option>
+                    <option value="9">9 - Ótimo</option>
+                    <option value="10">10 - Perfeito</option>
+                </select>
+            </div>
+
             <!-- Ordenação -->
             <h3 class="filtertext">Ordem</h3>
             <div class="filter-group">
@@ -116,13 +90,18 @@
             </div>
 
             <div id="info-container">
-                <p>Jogos: <span id="total-jogos">0</span></p>
+                <p>Jogos na tela: <span id="total-jogos">0</span></p>
+                <p>Nota média: <span id="nota-media">0</span></p>
             </div>
 
-            <div id="info-container">
-                <p>Nota Média: <span id="nota-media">0</span></p>
+            <!-- Botão para index1.html -->
+            <div class="filter-group">
+                <a href="../est\index.html" class="btn-link">Estatísticas</a>
             </div>
-
+            <!-- Botão para index1.html -->
+            <div class="filter-group">
+                <a href="../index.html" class="btn-link">Home</a>
+            </div>
         </div>
 
         <!-- Lista de jogos -->

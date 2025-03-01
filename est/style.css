@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.filters {
+    width: 200px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filters h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.filters button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #6b08a5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.filters button:hover {
+    background-color: #daad32;
+}
+
+.cards {
+    flex: 1;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #121212;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(50% - 10px);
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.5em; /* Título maior */
+    margin: 10px 0;
+    color: #ffffff; /* Destaque para o título */
+    background-color: #6b08a5;
+    font-weight: bold; /* Negrito */
+    border-radius: 10px;
+}
+
+.card .info {
+    display: flex;
+    justify-content: center; /* Centraliza "Jogos" e "Média" */
+    gap: 20px; /* Espaço entre "Jogos" e "Média" */
+    margin: 10px 0;
+}
+
+.card .info p {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em; /* Texto maior */
+    font-weight: bold; /* Negrito */
+}
+
+.card .info .count {
+    background-color: #00796b; /* Fundo para "Jogos" */
+    color: #e0f7fa; /* Cor do texto */
+}
+
+.card .info .average {
+    background-color: #e65100; /* Fundo para "Média" */
+    color: #fff3e0; /* Cor do texto */
+}
+
+.card img {
+
+    margin-left: 10px;
+    width: 150px; /* Tamanho fixo para as imagens */
+    height: 150px;
+    object-fit: cover; /* Mantém a proporção da imagem */
+    border-radius: 10px;
+}
